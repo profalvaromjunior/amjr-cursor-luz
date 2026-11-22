@@ -1,0 +1,17 @@
+AMJR Cursor Menino - Prof. Alvaro Machado Junior
+
+1. Abra "AMJR Cursor Menino.exe". O ponteiro vira o menino apontando.
+2. Ctrl + Alt + M liga e desliga o menino.
+3. Clique direito no icone do menino perto do relogio: animado ou parado,
+   tamanho (Normal, Grande, Muito grande, Gigante), usar tambem nos links
+   e iniciar com o Windows.
+4. "Sair" devolve o ponteiro normal do Windows.
+
+Dica: abra junto com o AMJR Cursor Luz para ter a luz em volta do menino.
+
+Se o Windows bloquear o .exe ("O Windows protegeu o computador"):
+   clique em "Mais informacoes" > "Executar assim mesmo",
+   ou de dois cliques em Compilar.bat para gerar o programa no proprio PC.
+
+Se algum dia o ponteiro ficar "preso" no menino, va em Configuracoes >
+Mouse > Configuracoes adicionais > Ponteiros > Usar padrao > Aplicar.

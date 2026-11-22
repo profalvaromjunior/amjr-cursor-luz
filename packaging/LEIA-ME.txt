@@ -1,0 +1,10 @@
+AMJR Cursor Luz + AMJR Cursor Menino - Prof. Alvaro Machado Junior
+Gratuito e para fins educacionais. Windows 10 e 11.
+
+1. Extraia esta pasta fora de Imagens, Documentos e Area de Trabalho (ex.: C:\AMJR).
+2. AMJR Cursor Luz: cursor iluminado e onda a cada clique. Ctrl + Alt + L liga/desliga.
+3. AMJR Cursor Menino: o ponteiro vira o menino apontando. Ctrl + Alt + M liga/desliga.
+4. Configure tudo no icone perto do relogio (botao direito).
+5. Se o Windows avisar, clique em "Mais informacoes" > "Executar assim mesmo".
+
+Mais informacoes: https://prof.alvaromjunior.com/cursor-luz

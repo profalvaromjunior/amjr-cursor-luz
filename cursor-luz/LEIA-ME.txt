@@ -1,0 +1,11 @@
+AMJR Cursor Luz - Prof. Alvaro Machado Junior
+
+1. Abra "AMJR Cursor Luz.exe". O cursor fica iluminado.
+2. Ctrl + Alt + L liga e desliga a luz.
+3. Clique direito no icone amarelo perto do relogio: cor, tamanho, intensidade,
+   mostrar cliques e iniciar com o Windows.
+   Clique esquerdo = onda vermelha | clique direito = onda azul.
+
+Se o Windows bloquear o .exe ("O Windows protegeu o computador"):
+   clique em "Mais informacoes" > "Executar assim mesmo",
+   ou de dois cliques em Compilar.bat para gerar o programa no proprio PC.
