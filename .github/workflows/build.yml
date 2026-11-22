@@ -2,7 +2,8 @@ name: Build
 
 # Compila o AMJR Cursor Luz e o AMJR Cursor Menino no GitHub (Windows), com o compilador C# do .NET Framework.
 # - Em todo push na main: compila e guarda o pacote como artefato.
-# - Em tags "v*" (ex.: v1.0), ou rodando à mão com "publicar" marcado: também publica na página Releases.
+# - Em tags "v*" (ex.: v1.0), em commits na main com [publicar] na mensagem, ou rodando à mão com "publicar" marcado:
+#   também publica na página Releases.
 on:
   push:
     branches: [main]
@@ -54,7 +55,7 @@ jobs:
             dist/AMJR-Cursor-Luz.zip.sha256
 
       - name: Publicar na página Releases
-        if: startsWith(github.ref, 'refs/tags/v') || inputs.publicar
+        if: startsWith(github.ref, 'refs/tags/v') || inputs.publicar || (github.event_name == 'push' && contains(github.event.head_commit.message, '[publicar]'))
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ startsWith(github.ref, 'refs/tags/v') && github.ref_name || 'v1.0' }}
